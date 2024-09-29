@@ -1,4 +1,4 @@
-# Robot Arm System Test Automation
+# Robot Arm Check System Test Automation
 
 ## Description
 This project is a test automation solution for verifying the behavior of a robot arm within a rectangular working area. The robot moves around the area, visiting points from an input file, and the system compares these points with actual visited points from an output file. The system logs results with statuses like `PASS` or `FAIL`, including error messages for failed tests.
