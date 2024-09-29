@@ -1,0 +1,35 @@
+Expected visited Points       Actual visited Points         Test Result(PASS/FAIL)                            
+==============================================================================================================
+(-3, -149)                    (-3, -149)                    PASS                                              
+(4, 150)                      (4, 150)                      PASS                                              
+(170, 150)                    (170, 150)                    FAIL - Expected point (170, 150) is outside the rectangle with bounds: (-4, -150) to (160, 150).
+(150, -155)                   (0, 0)                        FAIL - Expected point (150, -155) is outside the rectangle with bounds: (-4, -150) to (160, 150).
+(-6, 160)                     error                         FAIL - Expected point (-6, 160) is outside the rectangle with bounds: (-4, -150) to (160, 150).
+(-4, -150)                    (150, -155)                   FAIL - Actual point (150, -155) is outside the rectangle with bounds: (-4, -150) to (160, 150).
+(-4.23, -150.56)              (-6, 160)                     FAIL - Expected point (-4.23, -150.56) is outside the rectangle with bounds: (-4, -150) to (160, 150).
+(0.045, 0.001)                (-4, -150)                    FAIL - Expected (0.045, 0.001), but got (-4, -150).      
+(200, 200)                    (-4.23, -150.56)              FAIL - Expected point (200, 200) is outside the rectangle with bounds: (-4, -150) to (160, 150).
+(160, 150)                    (160, 150)                    PASS                                              
+(-5, -150)                    (-5, -150)                    FAIL - Expected point (-5, -150) is outside the rectangle with bounds: (-4, -150) to (160, 150).
+(-4, 151)                     (-4, 151)                     FAIL - Expected point (-4, 151) is outside the rectangle with bounds: (-4, -150) to (160, 150).
+(-4, 0)                       (-4, 0)                       PASS                                              
+(100, 0)                      (100, 0)                      PASS                                              
+(-4.5, -149.9)                (-4.5, -149.9)                FAIL - Expected point (-4.5, -149.9) is outside the rectangle with bounds: (-4, -150) to (160, 150).
+(170, -140)                   (170, -140)                   FAIL - Expected point (170, -140) is outside the rectangle with bounds: (-4, -150) to (160, 150).
+(100, -160)                   (100, -160)                   FAIL - Expected point (100, -160) is outside the rectangle with bounds: (-4, -150) to (160, 150).
+(-5.5, -151)                  (-5.5, -151)                  FAIL - Expected point (-5.5, -151) is outside the rectangle with bounds: (-4, -150) to (160, 150).
+(0, -145)                     (0, -145)                     PASS                                              
+(0, -160)                     (0, -160)                     FAIL - Expected point (0, -160) is outside the rectangle with bounds: (-4, -150) to (160, 150).
+(160, -151)                   (160, -151)                   FAIL - Expected point (160, -151) is outside the rectangle with bounds: (-4, -150) to (160, 150).
+(50, -75)                     (50, -75)                     PASS                                              
+(100, 150)                    (100, 150)                    PASS                                              
+(-2, -151)                    (-2, -151)                    FAIL - Expected point (-2, -151) is outside the rectangle with bounds: (-4, -150) to (160, 150).
+(-2.5, -148.5)                (-2.5, -148.5)                PASS                                              
+(4, 155)                      (4, 155)                      FAIL - Expected point (4, 155) is outside the rectangle with bounds: (-4, -150) to (160, 150).
+(-3, 140)                     (-3, 140)                     PASS                                              
+(-6, -149)                    (-6, -149)                    FAIL - Expected point (-6, -149) is outside the rectangle with bounds: (-4, -150) to (160, 150).
+(-4.5, 150)                   (-4.5, 150)                   FAIL - Expected point (-4.5, 150) is outside the rectangle with bounds: (-4, -150) to (160, 150).
+(4, 0)                        (4, 0)                        PASS                                              
+(160, 0)                      (160, 0)                      PASS                                              
+(-1, -150)                    (-1, -150)                    PASS                                              
+(150, -150)                   (150, -150)                   PASS                                              

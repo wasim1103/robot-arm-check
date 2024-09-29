@@ -1,0 +1,2 @@
+input_file = ./sampletestdata/system_input_file.011111.txt
+output_file = ./sampletestdata/system_output_file.011111.txt
