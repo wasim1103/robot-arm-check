@@ -11,11 +11,11 @@ class Rectangle:
         self.bottom_right = bottom_right
         self.top_right = top_right
 
-    @staticmethod
-    def validate_coordinates(coordinates):
-        """Ensure each point has both x and y coordinates."""
-        if not all(isinstance(point, tuple) and len(point) == 2 for point in coordinates):
-            raise ValueError("All points must be tuples with exactly two values (x, y).")
+    # @staticmethod
+    # def validate_coordinates(coordinates):
+    #     """Ensure each point has both x and y coordinates."""
+    #     if not all(isinstance(point, tuple) and len(point) == 2 for point in coordinates):
+    #         raise ValueError("All points must be tuples with exactly two values (x, y).")
 
     def create_rectangle_from_file(file_path):
         """Function to create a Rectangle from the input file."""
