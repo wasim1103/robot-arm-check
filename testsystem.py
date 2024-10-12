@@ -71,13 +71,13 @@ class TestSystem:
         if len(expected_points) > min_length:
             for j in range(min_length, len(expected_points)):
                 results.append((expected_points[j], None, "FAIL", "Expected point not found in actual points."))
-                print(f"Test {j + 1}: FAIL - Expected point {expected}: Expected point not found in actual points.")
+                print(f"Test {j + 1}: FAIL - Expected point {expected_points[j]}: Expected point not found in actual points.")
 
         # Handle any remaining points in actual
         if len(actual_points) > min_length:
             for j in range(min_length, len(actual_points)):
                 results.append((None, actual_points[j], "FAIL", "Extra point found in actual points."))
-                print(f"Test {j + 1}: FAIL - Extra point found in actual points: {actual}.")
+                print(f"Test {j + 1}: FAIL - Extra point found in actual points: {actual_points[j]}.")
 
         return results
 
